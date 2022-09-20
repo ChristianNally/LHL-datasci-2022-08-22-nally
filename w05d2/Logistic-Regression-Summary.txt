@@ -1,0 +1,60 @@
+Anurag Srivastava:
+
+0) experiment with the variables
+
+1) make sure you're aware of:
+a) the independent variables (the one that is allowed to vary freely)
+b) the dependent variable (the one you're trying to predict)
+
+2) instead of using SKLEARN he is using ______
+
+Steps:
+Prepare the Data
+fill in missing values? (you'll do better if you use medians of similar inputs, rather than the global average)
+set variable types ()
+scale values? etc.
+choose a good test/train split (70/30, 80/20, > 60/40)
+
+Zain Hasan:
+
+1) Rapid Review of Linear Regression [0:00 - 10:00]
+
+2) Limitations of LR [10:00 - 14:30] 
+
+a) we would like a model that pays attention to 
+the limits of the variables (ranges, physically 
+impossible values, discrete categories, etc.)
+
+b) errant extrapolation is possible with Linear 
+Regression
+
+3) [14:30 - 29:00] Classification and Regression 
+Problems (are related)
+
+Introducing the Data
+Logistic Regression -> Tries to predict a Yes or No
+Show / No Show sample
+
+
+"We learned about two different applications of 
+supervised learning: a) linear regression and b) 
+classification."
+
+Supervised Learning
+===================
+
+           regression         classification
+
+linear      lin. reg.          logistic reg.
+
+nonlinear   polynomial reg.    ...
+
+[36:00 - ] The Y-Axis on the S Curve is 
+interpreted as a probability. We will see why 
+below.
+
+
+[44:00 - ] An implementation of Logistic 
+Regression in Python.
+Binary Classification USA vs CANADA
+
